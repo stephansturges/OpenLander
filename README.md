@@ -17,7 +17,8 @@ The neural network performs pixelwise segmentation, and is trained from my own p
 
 # What about detection of X? Can you update the neural network?
 
-There will be updates in the future, but I am also developing custom versions of the neural network for specific use cases, with many more features that are pertinent to commercial use cases, and everything will not be integrated in this version. OpenLander will remain free to use and is destined to improving safety of UAVs for all who enjoy using them!
+There will be updates in the future, but I am also developing custom versions of the neural network for specific commercial use cases and I won't be adding everything to OpenLander. 
+OpenLander will remain free to use and is destined to improving safety of UAVs for all who enjoy using them!
 
 # Sources:
 Some code taken from the excellent https://github.com/luxonis/depthai-experiments from Luxonis.
