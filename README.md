@@ -14,7 +14,10 @@ In the amateur and professional UAV space there is a need for simple and cheap t
 
 The neural network performs pixelwise segmentation, and is trained from my own pipeline of synthetic data. This public version is trained on about 500Gb of data. 
 
-![example image](img.jpeg?raw=true "Green is safe")
+
+## green is safe
+<img src="img.jpeg" width="250" height="250"/>
+
 
 
 # What about detection of X? Can you update the neural network?
