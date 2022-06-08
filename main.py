@@ -245,14 +245,6 @@ with contextlib.ExitStack() as stack:
             old_frame_list.pop(0)
 
 
-            counter+=1
-            if (time.time() - start_time) > 1 :
-                fps = counter / (time.time() - start_time)
-
-                counter = 0
-                start_time = time.time()
-
-
             if cv2.waitKey(1) == ord('q'):
                 break
             i+=1
