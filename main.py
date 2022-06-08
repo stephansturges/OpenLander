@@ -190,6 +190,8 @@ with contextlib.ExitStack() as stack:
             
             frame = cv2.resize(frame, (300, 300))
 
+            cv2.imshow("detection", frame)
+
             isolated_masks = cv2.resize((np.sum(frame for frame in old_frame_list)), (300, 300))
 
             isolated_masks_BW = cv2.cvtColor(isolated_masks,cv2.COLOR_BGR2GRAY)
@@ -232,7 +234,7 @@ with contextlib.ExitStack() as stack:
                 cv2.putText(out, "no drop site candidates!", (5, frame.shape[0] - 10),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
 
-            cv2.imshow("SELECTED_LANDING_SPOT",out)
+            # cv2.imshow("SELECTED_LANDING_SPOT",out)
 
 
             ### ALT BW MASK
