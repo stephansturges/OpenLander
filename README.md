@@ -6,6 +6,17 @@ Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentatio
 
 You will need any Luxonis device with an RGB camera and the correct version of the depthai-python library installed for your platform and device combination. In terms of real-world use I would recommend that you get a device with a global shutter RGB camera with high light sensitivity and relatively low optical distortion.
 
+# Practical device recommendations:
+
+If you do not yet own an OAK-series camera from Luxonis and want one to use with this repository, your best bet is to get an OAK-1 device modified with an OV9782 sensor with the "standard FOV".
+This is how to do it: 
+1. Go to the OAK-1 on the Luxonis store and add it to your cart https://shop.luxonis.com/collections/usb/products/oak-1
+2. Go the the "customization coupon" in the Luxonis store and add one of those https://shop.luxonis.com/collections/early-access/products/modification-cupon
+3. In your shopping cart, add "please replace RGB sensor with standard FOV OV9782" in the "instructions to seller" box
+
+... and then wait a week or so for your global-shutter, fixed-focus, high-sensitivity sensor to arrive :)
+
+
 # Why? 
 
 In the amateur and professional UAV space there is a need for simple and cheap tools that can be used to determine safe emergency landing spots, avoiding crashes and potential harm to people.
