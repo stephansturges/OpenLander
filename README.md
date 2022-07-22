@@ -26,23 +26,33 @@ In the amateur and professional UAV space there is a need for simple and cheap t
 The neural network performs pixelwise segmentation, and is trained from my own pipeline of synthetic data. This public version is trained on about 500Gb of data. There is a new version trained on 4T of data that I may publish soon, if you want to test it just contact me via email.
 
 ## some examples of training images
-<img src="training12.png" width="880" height="400"/>
-<img src="training1.png" width="880" height="400"/>
-<img src="training2.png" width="880" height="400"/>
-<img src="training3.png" width="880" height="400"/>
-<img src="training4.png" width="880" height="400"/>
-<img src="training5.png" width="880" height="400"/>
-<img src="training6.png" width="880" height="400"/>
-<img src="training7.png" width="880" height="400"/>
-<img src="training8.png" width="880" height="400"/>
-<img src="training9.png" width="880" height="400"/>
-<img src="training10.png" width="880" height="400"/>
-<img src="training11.png" width="880" height="400"/>
+<img src="pics/training12.png" width="880" height="400"/>
+<img src="pics/training1.png" width="880" height="400"/>
+<img src="pics/training2.png" width="880" height="400"/>
+<img src="pics/training3.png" width="880" height="400"/>
+<img src="pics/training4.png" width="880" height="400"/>
+<img src="pics/training5.png" width="880" height="400"/>
+<img src="pics/training6.png" width="880" height="400"/>
+<img src="pics/training7.png" width="880" height="400"/>
+<img src="pics/training8.png" width="880" height="400"/>
+<img src="pics/training9.png" width="880" height="400"/>
+<img src="pics/training10.png" width="880" height="400"/>
+<img src="pics/training11.png" width="880" height="400"/>
 
 
 
-## green is safe
-<img src="img.jpeg" width="250" height="250"/>
+## Real world pics!
+
+These are unfortunately all made with an old version of the neural network, but I don't have my own drone to make more :-p 
+The current gen network performs at least 5x better on a mixed dataset, and is a *huge* step up in real-world use.
+
+(masked area is "landing safe")
+<img src="pics/img.jpeg" width="256" height="256"/>
+<img src="pics/img2.png" width="256" height="256"/>
+<img src="pics/img3.png" width="256" height="256"/>
+<img src="pics/img4.png" width="256" height="256"/>
+<img src="pics/img5.png" width="256" height="256"/>
+<img src="pics/img6.png" width="256" height="256"/>
 
 
 
