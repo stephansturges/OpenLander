@@ -23,7 +23,21 @@ In the amateur and professional UAV space there is a need for simple and cheap t
 
 # How does it work?
 
-The neural network performs pixelwise segmentation, and is trained from my own pipeline of synthetic data. This public version is trained on about 500Gb of data. 
+The neural network performs pixelwise segmentation, and is trained from my own pipeline of synthetic data. This public version is trained on about 500Gb of data. There is a new version trained on 4T of data that I may publish soon, if you want to test it just contact me via email.
+
+## some examples of training images
+<img src="training1.png" width="880" height="400"/>
+<img src="training2.png" width="880" height="400"/>
+<img src="training3.png" width="880" height="400"/>
+<img src="training4.png" width="880" height="400"/>
+<img src="training5.png" width="880" height="400"/>
+<img src="training6.png" width="880" height="400"/>
+<img src="training7.png" width="880" height="400"/>
+<img src="training8.png" width="880" height="400"/>
+<img src="training9.png" width="880" height="400"/>
+<img src="training10.png" width="880" height="400"/>
+<img src="training11.png" width="880" height="400"/>
+
 
 
 ## green is safe
