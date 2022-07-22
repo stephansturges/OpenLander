@@ -47,6 +47,7 @@ These are unfortunately all made with an old version of the neural network, but 
 The current gen network performs at least 5x better on a mixed dataset, and is a *huge* step up in real-world use.
 
 (masked area is "landing safe")
+
 <img src="pics/img.jpeg" width="256" height="256"/>
 <img src="pics/img2.png" width="256" height="256"/>
 <img src="pics/img3.png" width="256" height="256"/>
