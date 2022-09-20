@@ -34,7 +34,7 @@ cam_options = ['rgb', 'left', 'right']
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-cam", "--cam_input", help="select camera input source for inference", default='rgb', choices=cam_options)
-parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='models/v17_tfrec3_local_256_decoder_256.blob', type=str)
+parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='models/15M_8_shaves.blob', type=str)
 parser.add_argument("-usb", "--usb_mode", help="select usb 2 or 3 mode", default='3', type=int)
 
 args = parser.parse_args()
