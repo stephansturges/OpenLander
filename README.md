@@ -3,7 +3,7 @@
 Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentation AI. 
 
 # UPDATE 2022 09 20 
-New version of the neural network released, trained on x10 more data. This version outputs a single "obstacle" class in Openlander. Accuracy is really good :) !
+New version of the neural network released, trained on x10 more data. This version outputs a single "safe" class. Accuracy is really good :) !
 
 # Prerequisites:
 
