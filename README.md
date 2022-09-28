@@ -49,7 +49,7 @@ The neural network performs pixelwise segmentation, and is trained from my own p
 
 ## Coming soon (2022 09 28): additional "human" class
 
-<img src="pics/humanseg.png" width="640" height="400"/>
+<img src="pics/humanseg.jpg" width="640" height="400"/>
 
 
 
