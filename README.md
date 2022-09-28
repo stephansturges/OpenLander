@@ -6,7 +6,9 @@ Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentatio
 New version of the neural network released, trained on x10 more data. This version outputs a single "safe" class. Accuracy is really good :) !
 
 Help me keep the GPUs running with the link below! :) 
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O1FBP5F)
+
 
 # Prerequisites:
 
@@ -44,6 +46,11 @@ The neural network performs pixelwise segmentation, and is trained from my own p
 <img src="pics/training9.png" width="880" height="400"/>
 <img src="pics/training10.png" width="880" height="400"/>
 <img src="pics/training11.png" width="880" height="400"/>
+
+## Coming soon (2022 09 28): additional "human" class
+
+<img src="pics/humanseg.png" width="640" height="400"/>
+
 
 
 
