@@ -5,6 +5,9 @@ Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentatio
 # UPDATE 2022 09 20 
 New version of the neural network released, trained on x10 more data. This version outputs a single "safe" class. Accuracy is really good :) !
 
+Help me keep the GPUs running with the link below! :) 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O1FBP5F)
+
 # Prerequisites:
 
 You will need any Luxonis device with an RGB camera and the correct version of the depthai-python library installed for your platform and device combination. In terms of real-world use I would recommend that you get a device with a global shutter RGB camera with high light sensitivity and relatively low optical distortion.
