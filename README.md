@@ -38,14 +38,6 @@ The neural network performs pixelwise segmentation, and is trained from my own p
 <img src="pics/training1.png" width="880" height="400"/>
 <img src="pics/training2.png" width="880" height="400"/>
 <img src="pics/training3.png" width="880" height="400"/>
-<img src="pics/training4.png" width="880" height="400"/>
-<img src="pics/training5.png" width="880" height="400"/>
-<img src="pics/training6.png" width="880" height="400"/>
-<img src="pics/training7.png" width="880" height="400"/>
-<img src="pics/training8.png" width="880" height="400"/>
-<img src="pics/training9.png" width="880" height="400"/>
-<img src="pics/training10.png" width="880" height="400"/>
-<img src="pics/training11.png" width="880" height="400"/>
 
 ## Coming soon (2022 09 28): additional "human" class
 
