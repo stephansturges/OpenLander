@@ -62,6 +62,13 @@ The current gen network performs at least 5x better on a mixed dataset, and is a
 
 
 
+## Full-fat version
+
+FYI there is a more advanced version of OpenLander that I am developing as a commercial product, which includes depth sensing, IMU, more advanced neural networks, custom-developed sensors and a whole lot more stuff. If you're intersted in that feel free to contact me via email (my name @ gmail).
+
+Here's a quick screengrab of deconflicting landing spots with depth sensing (this runs in parallel to the DNN system):
+<video src="pics/depth_video.mov" controls="controls" style="max-width: 720px;"></video>
+
 # What about detection of X? Can you update the neural network?
 
 There will be updates in the future, but I am also developing custom versions of the neural network for specific commercial use cases and I won't be adding everything to OpenLander. 
