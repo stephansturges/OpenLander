@@ -1,6 +1,6 @@
 # OpenLander
 
-Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentation AI. 
+Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors from Luxonis.
 
 # UPDATE 2022 10 20
 
