@@ -4,7 +4,7 @@ Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentatio
 
 # UPDATE 2022 10 20
 
-Major update! The default neural network now features a 3-class output with detection of humans on a separate output layer! This is to allow finer granularity obstacle avoidance: if you have to fall out of the sky you can now decide that it's best to drop on top of a builder rather than on someone's head ;) 
+Major update! The default neural network now features a 3-class output with detection of humans on a separate output layer! This is to allow finer granularity obstacle avoidance: if you have to fall out of the sky you can now decide whether it's best to drop your drone on top of a building or on someone's head ;) 
 
 Check out the video:
 
