@@ -8,6 +8,7 @@ Major update! The default neural network now features a 3-class output with dete
 
 Check out the video:
 https://youtu.be/AClHrOK6f7c
+[![neural network detection of safe landing and humans](http://img.youtube.com/vi/AClHrOK6f7c/0.jpg)](http://www.youtube.com/watch?v=AClHrOK6f7c "DNN example")
 (note: the RGB camera on my sensor is messed up so the neural network input has a stron magenta tint, which is not good for detection... but it still works quite well!)
 
 I'm hoping this version can also help with other scenarios like disaster relief where having an automated way to find people in the the middle of nowhere can allow you to cover a lot of ground in a short amount of time.
