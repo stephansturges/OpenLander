@@ -10,7 +10,7 @@ Check out the video:
 
 [![neural network detection of safe landing and humans](http://img.youtube.com/vi/AClHrOK6f7c/0.jpg)](http://www.youtube.com/watch?v=AClHrOK6f7c "DNN example")
 
-(note: the RGB camera on my sensor is messed up so the neural network input has a stron magenta tint, which is not good for detection... but it still works quite well!)
+(note: the RGB camera on my sensor is messed up so the neural network input has a strong magenta color-cast, which is not good for detection... but the detection still works quite well. I need to swap out that sensor when I have some time and make a better video.)
 
 I'm hoping this version can also help with other scenarios like disaster relief where having an automated way to find people in the the middle of nowhere can allow you to cover a lot of ground in a short amount of time.
 Bear in mind this is V1 of this feature and will get better over time as I can train the neural network on more data and larger batches... speaking of which please click on the ko-fi link below to help keep the GPUs running :) !
@@ -24,7 +24,7 @@ Help me keep the GPUs running with the link below! :)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O1FBP5F)
 
 
-# Prerequisites:
+# How can I use this?
 
 You will need any Luxonis device with an RGB camera and the correct version of the depthai-python library installed for your platform and device combination. In terms of real-world use I would recommend that you get a device with a global shutter RGB camera with high light sensitivity and relatively low optical distortion.
 
