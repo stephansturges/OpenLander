@@ -2,6 +2,18 @@
 
 Free-to-use landing-zone detection for UAV using Luxonis cameras and segmentation AI. 
 
+# UPDATE 2022 10 20
+
+Major update! The default neural network now features a 3-class output with detection of humans on a separate output layer! This is to allow finer granularity obstacle avoidance: if you have to fall out of the sky you can now decide that it's best to drop on top of a builder rather than on someone's head ;) 
+
+Check out the video:
+https://youtu.be/AClHrOK6f7c
+(note: the RGB camera on my sensor is messed up so the neural network input has a stron magenta tint, which is not good for detection... but it still works quite well!)
+
+I'm hoping this version can also help with other scenarios like disaster relief where having an automated way to find people in the the middle of nowhere can allow you to cover a lot of ground in a short amount of time.
+Bear in mind this is V1 of this feature and will get better over time as I can train the neural network on more data and larger batches... speaking of which please click on the ko-fi link below to help keep the GPUs running :) !
+
+
 # UPDATE 2022 09 20 
 New version of the neural network released, trained on x10 more data. This version outputs a single "safe" class. Accuracy is really good :) !
 
