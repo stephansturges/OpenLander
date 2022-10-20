@@ -29,12 +29,12 @@ Point to the desired neural network blob with
 
 '''
 
-num_of_classes = 2 # define the number of classes in the dataset
+num_of_classes = 3 # define the number of classes in the dataset
 cam_options = ['rgb', 'left', 'right']
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-cam", "--cam_input", help="select camera input source for inference", default='rgb', choices=cam_options)
-parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='models/15M_8_shaves.blob', type=str)
+parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='models/20221020_3class.blob', type=str)
 parser.add_argument("-usb", "--usb_mode", help="select usb 2 or 3 mode", default='3', type=int)
 
 args = parser.parse_args()
