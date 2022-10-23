@@ -6,6 +6,10 @@ Free-to-use ground-level obstacle-detection segmentation AI for UAV which you ca
 
 Major update! The default neural network now features a 3-class output with detection of humans on a separate output layer! This is to allow finer granularity obstacle avoidance: if you have to fall out of the sky you can now decide whether it's best to drop your drone on top of a building or on someone's head ;) 
 
+<img src="pics/humanseg.jpg" width="640" height="400"/>
+
+
+
 Check out the video:
 
 [![neural network detection of safe landing and humans](http://img.youtube.com/vi/AClHrOK6f7c/0.jpg)](http://www.youtube.com/watch?v=AClHrOK6f7c "DNN example")
@@ -52,10 +56,6 @@ The neural network performs pixelwise segmentation, and is trained from my own p
 <img src="pics/training1.png" width="880" height="400"/>
 <img src="pics/training2.png" width="880" height="400"/>
 <img src="pics/training3.png" width="880" height="400"/>
-
-## Coming soon (2022 09 28): additional "human" class
-
-<img src="pics/humanseg.jpg" width="640" height="400"/>
 
 
 
