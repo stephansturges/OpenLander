@@ -49,7 +49,8 @@ In the amateur and professional UAV space there is a need for simple and cheap t
 
 # How does it work?
 
-The neural network performs pixelwise segmentation, and is trained from my own pipeline of synthetic data. This public version is trained on about 500Gb of data. There is a new version trained on 4T of data that I may publish soon, if you want to test it just contact me via email.
+The neural network performs pixelwise segmentation, and is trained from my own pipeline of synthetic data. This public version is trained on about 5Tb of data. If you want a better-performing version of the neural network I may have other variants depending on when the last one was pushed here, feel free to contact me for details :)
+
 
 ## some examples of training images
 <img src="pics/training12.png" width="880" height="400"/>
