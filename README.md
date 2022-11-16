@@ -2,6 +2,11 @@
 
 Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors from Luxonis.
 
+# UPDATE 2022 11 16
+
+Update: pushed a new version of the 3-class segmentation network with much better performance. This network is the result of 26 days of training on 5.5Tb of data!
+Next step on the segmentation network is to deploy on larger infrastructure (A100 array on AWS) to train on larger batches and larger input dimensions... stay tuned!
+
 # UPDATE 2022 10 20
 
 Major update! The default neural network now features a 3-class output with detection of humans on a separate output layer! This is to allow finer granularity obstacle avoidance: if you have to fall out of the sky you can now decide whether it's best to drop your drone on top of a building or on someone's head ;) 
