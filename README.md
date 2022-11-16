@@ -7,8 +7,13 @@ Free-to-use ground-level obstacle-detection segmentation AI for UAV which you ca
 Update: pushed a new version of the 3-class segmentation network with much better performance. This network is the result of 26 days of training on 5.5Tb of data!
 Next step on the segmentation network is to deploy on larger infrastructure (A100 array on AWS) to train on larger batches and larger input dimensions... stay tuned!
 
-Check out a short Loom video below showing a demo running locally on a Luxonis camera:
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/7f63cefe2bfb4ab6bc9ac5b1bfd3f7a0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+# Preview vid
+Check out a short hacky Loom video below showing a demo running locally on a Luxonis camera!!
+
+(CAVEAT: the camera couldn't focus correctly because it's too close to the screen and there is a watermark on the image which messes with detection... but you can see the neural network doing it's thing at a smooth 15fps on a tiny tiny sensor! )
+
+https://www.loom.com/share/7f63cefe2bfb4ab6bc9ac5b1bfd3f7a0
+
 
 
 # UPDATE 2022 10 20
