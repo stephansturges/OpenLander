@@ -2,6 +2,13 @@
 
 Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors from Luxonis.
 
+# UPDATE 2022 11 26
+
+If you're into UAV safety and autonomy, check out the new project I just pushed here: 
+https://github.com/stephansturges/WALDO
+It's a yolov7-based embeddable single-shot detector for UAV! 
+
+
 # UPDATE 2022 11 16
 
 Update: pushed a new version of the 3-class segmentation network with much better performance. This network is the result of 26 days of training on 5.5Tb of data!
