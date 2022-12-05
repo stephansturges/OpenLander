@@ -1,6 +1,12 @@
 # OpenLander
 
 Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors from Luxonis.
+The goal is to help you avoid this 
+
+
+https://user-images.githubusercontent.com/20320678/205611898-bdf4aefa-045e-4f8b-aeb4-b5b7537e1490.mov
+
+
 
 # UPDATE 2022 11 26
 
