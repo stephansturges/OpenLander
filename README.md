@@ -78,18 +78,20 @@ The current gen network performs at least 5x better on a mixed dataset, and is a
 
 
 
-# UPDATE 2022 11 26
+# Looking for detection ?! 
 
-If you're into UAV safety and autonomy, check out the new project I just pushed here: 
+If you're looking for detection rather than segmentation you might enjoy WALDO:
 https://github.com/stephansturges/WALDO
-It's a yolov7-based embeddable single-shot detector for UAV! 
+
+It's this kind of stuff -> 
+![image](https://user-images.githubusercontent.com/20320678/207591635-2ac99641-a964-4856-a5b2-59066d5bd1af.png)
 
 
 # Commercial version
 
 FYI there is a more advanced version of OpenLander that I am developing as a commercial product, which includes depth sensing, IMU, more advanced neural networks, custom-developed sensors and a whole lot more stuff. If you're intersted in that feel free to contact me via email (my name @ gmail).
 
-Here's a quick screengrab of deconflicting landing spots with depth sensing (this runs in parallel to the DNN system):
+Here's a quick screengrab of deconflicting landing spots with depth sensing (this runs in parallel to the DNN system at 30 fps on a tiny sensor!):
 
 https://user-images.githubusercontent.com/20320678/195116938-53e8f701-3f4c-41c0-9dc1-b67f89aa7176.mov
 
