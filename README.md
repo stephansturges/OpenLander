@@ -1,51 +1,23 @@
 # OpenLander
 
-Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors from Luxonis.
+Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors!
+
+# 2022/12/14: Version 1.0 release!
+
+I'm really happy with this version, after about a year of continuous iterations I'm calling this the "V1.0" release, just in time for the Holidays! 
+Check out the video below:
+![d83f9f025a5e4c048a2cd63f35f47b82-with-play](https://user-images.githubusercontent.com/20320678/207590313-d9d2edbc-e791-48b2-a05e-73310e4720d6.gif)
+https://www.loom.com/share/d83f9f025a5e4c048a2cd63f35f47b82
 
 
+# Help me improve it
 
-# UPDATE 2022 11 26
+This latest version cost a whopping 5800$ to train on an 8-GPU system on AWS... so if you'd like to see more in the future feel free to click on the Ko-fi link below ;-) 
 
-If you're into UAV safety and autonomy, check out the new project I just pushed here: 
-https://github.com/stephansturges/WALDO
-It's a yolov7-based embeddable single-shot detector for UAV! 
-
-
-# UPDATE 2022 11 16
-
-Update: pushed a new version of the 3-class segmentation network with much better performance. This network is the result of 26 days of training on 5.5Tb of data!
-Next step on the segmentation network is to deploy on larger infrastructure (A100 array on AWS) to train on larger batches and larger input dimensions... stay tuned!
-
-# Preview video with me rambling and showing lots of pictures! 
-
-https://www.loom.com/share/088beeef89f34b11ae804192566757f8
-
-
-# UPDATE 2022 10 20
-
-Major update! The default neural network now features a 3-class output with detection of humans on a separate output layer! This is to allow finer granularity obstacle avoidance: if you have to fall out of the sky you can now decide whether it's best to drop your drone on top of a building or on someone's head ;) 
-
-<img src="pics/humanseg.jpg" width="640" height="400"/>
-
-
-
-Check out the video:
-
-[![neural network detection of safe landing and humans](http://img.youtube.com/vi/AClHrOK6f7c/0.jpg)](http://www.youtube.com/watch?v=AClHrOK6f7c "DNN example")
-
-(note: the RGB camera on my sensor is messed up so the neural network input has a strong magenta color-cast, which is not good for detection... but the detection still works quite well. I need to swap out that sensor when I have some time and make a better video.)
-
-I'm hoping this version can also help with other scenarios like disaster relief where having an automated way to find people in the the middle of nowhere can allow you to cover a lot of ground in a short amount of time.
-Bear in mind this is V1 of this feature and will get better over time as I can train the neural network on more data and larger batches... speaking of which please click on the ko-fi link below to help keep the GPUs running :) !
-
-
-# UPDATE 2022 09 20 
-New version of the neural network released, trained on x10 more data. This version outputs a single "safe" class. Accuracy is really good :) !
-
-Help me keep the GPUs running with the link below! :) 
+![image](https://user-images.githubusercontent.com/20320678/207591121-e767f779-c99d-420c-a144-36b27c80b42d.png)
+![image](https://user-images.githubusercontent.com/20320678/207590968-8726dc54-3d14-4d69-8c68-f4d47313c845.png)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O1FBP5F)
-
 
 (BTW supporters get early access to new neural networks ;-) )
 
@@ -106,7 +78,14 @@ The current gen network performs at least 5x better on a mixed dataset, and is a
 
 
 
-## Full-fat version
+# UPDATE 2022 11 26
+
+If you're into UAV safety and autonomy, check out the new project I just pushed here: 
+https://github.com/stephansturges/WALDO
+It's a yolov7-based embeddable single-shot detector for UAV! 
+
+
+# Commercial version
 
 FYI there is a more advanced version of OpenLander that I am developing as a commercial product, which includes depth sensing, IMU, more advanced neural networks, custom-developed sensors and a whole lot more stuff. If you're intersted in that feel free to contact me via email (my name @ gmail).
 
