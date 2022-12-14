@@ -6,7 +6,7 @@ Free-to-use ground-level obstacle-detection segmentation AI for UAV which you ca
 
 I'm really happy with this version, after about a year of continuous iterations I'm calling this the "V1.0" release, just in time for the Holidays! 
 Check out the video below:
-![d83f9f025a5e4c048a2cd63f35f47b82-with-play](https://user-images.githubusercontent.com/20320678/207590313-d9d2edbc-e791-48b2-a05e-73310e4720d6.gif)
+
 https://www.loom.com/share/d83f9f025a5e4c048a2cd63f35f47b82
 
 
