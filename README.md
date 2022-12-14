@@ -2,7 +2,7 @@
 
 Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors!
 
-# 2022/12/14: Version 1.0 release!
+# 🎅🔔🎉 2022/12/14: Version 1.0 Xmas release! 🎅🔔🎉
 
 I'm really happy with this version, after about a year of continuous iterations I'm calling this the "V1.0" release, just in time for the Holidays! 
 Check out the video below:
