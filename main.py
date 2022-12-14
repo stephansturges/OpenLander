@@ -34,7 +34,7 @@ cam_options = ['rgb', 'left', 'right']
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-cam", "--cam_input", help="select camera input source for inference", default='rgb', choices=cam_options)
-parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='models/20221020_3class.blob', type=str)
+parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='models/20221214_bigkahunaburger_6shavesonly.blob', type=str)
 parser.add_argument("-usb", "--usb_mode", help="select usb 2 or 3 mode", default='3', type=int)
 
 args = parser.parse_args()
@@ -92,7 +92,9 @@ if cam_source == 'rgb':
     cam.setInterleaved(False)
     cam.preview.link(detection_nn.input)
     cam.setPreviewKeepAspectRatio(True)
-    #cam.initialControl.setManualFocus(200)
+    #cam.initialControl.setAutoFocusMode(dai.CameraControl.AutoFocusMode.AUTO)
+
+    cam.initialControl.setManualFocus(85)
 
 
 elif cam_source == 'left':
@@ -110,7 +112,7 @@ if cam_source != 'rgb':
     cam.out.link(manip.inputImage)
     manip.out.link(detection_nn.input)
 
-cam.setFps(15)
+cam.setFps(20)
 
 # Create outputs
 xout_rgb = pipeline.create(dai.node.XLinkOut)
@@ -161,12 +163,15 @@ with contextlib.ExitStack() as stack:
         # setting up pooling if required
         
         in_nn = q_nn.get()        
-        frames_to_keep = int(1)   # This is used to pool detection frames and apply temporal smoothing if set >1
+        frames_to_keep = int(2)   # This is used to pool detection frames and apply temporal smoothing if set >1
         old_frame_list = []
 
         for _ in range(frames_to_keep):
             frame_x = np.zeros_like(decode_deeplabv3p(np.array(in_nn.getFirstLayerInt32()).reshape(nn_shape,nn_shape)))
             old_frame_list.append(frame_x)
+
+        startTime = time.monotonic()
+        counter = 0
 
         while True:
             in_nn_input = q_nn_input.get()
@@ -188,9 +193,15 @@ with contextlib.ExitStack() as stack:
 
             frame = show_deeplabv3p(summed_color_frames, frame) # weighted sum frame for display
             
-            frame = cv2.resize(frame, (300, 300))
+            frame = cv2.resize(frame, (400, 400))
 
-            cv2.imshow("detection", frame)
+            color2 = (255, 255, 255)
+            cv2.putText(frame, "NN fps: {:.2f}".format(counter / (time.monotonic() - startTime)),
+                        (2, frame.shape[0] - 4), cv2.FONT_HERSHEY_TRIPLEX, 0.4, color2)
+
+            cv2.imshow("NN detection", frame)
+
+            counter += 1
 
             isolated_masks = cv2.resize((np.sum(frame for frame in old_frame_list)), (300, 300))
 
@@ -203,7 +214,7 @@ with contextlib.ExitStack() as stack:
 
             thresh = cv2.bitwise_not(thresh)
 
-            #cv2.imshow("mask_only",thresh)
+            cv2.imshow("mask_only",thresh)
             
             
             try:
@@ -234,7 +245,10 @@ with contextlib.ExitStack() as stack:
                 cv2.putText(out, "no drop site candidates!", (5, frame.shape[0] - 10),cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
 
-            # cv2.imshow("SELECTED_LANDING_SPOT",out)
+            cv2.imshow("SELECTED_LANDING_SPOT",out)
+            cv2.setWindowProperty("SELECTED_LANDING_SPOT", cv2.WND_PROP_TOPMOST, 1)
+            cv2.setWindowProperty("mask_only", cv2.WND_PROP_TOPMOST, 1)
+            cv2.setWindowProperty("NN detection", cv2.WND_PROP_TOPMOST, 1)
 
 
             ### ALT BW MASK
