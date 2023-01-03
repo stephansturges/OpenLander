@@ -2,7 +2,7 @@
 
 Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors!
 
-# Adding local image processing 
+# 2023/01/03: local image processing and a new DNN 🎉😁
 
 With thanks to Ricardo, you can now add images to the "testpics" folder and process them using an attached Luxonis device by running the test_from_local_file.py script. 
 This makes it quicker to test on images collected with your own drone without having to mount the camera.
@@ -14,11 +14,6 @@ The output of the neural network is color-coded and overlayed over your input im
 
 (as usual: green mask is "safe", yellow is "obstacle / human", and no mask is "not safe")
 
-
-# 2022/12/29
-
-Sneak peek: next version is going to be ridiculously good... 
-<img width="706" alt="image" src="https://user-images.githubusercontent.com/20320678/210006136-cdbb1f64-36ab-4c9e-88cd-ef3f07ab3d8c.png">
 
 
 # 🎅🔔🎉 2022/12/14: Version 1.0 Xmas release! 🎅🔔🎉
