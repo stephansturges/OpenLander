@@ -12,6 +12,8 @@ The output of the neural network is color-coded and overlayed over your input im
 
 <img width="441" alt="image" src="https://user-images.githubusercontent.com/20320678/210395858-70efd643-957f-4e24-9556-2c0567b40dda.png">
 
+(as usual: green mask is "safe", yellow is "obstacle / human", and no mask is "not safe")
+
 
 # 2022/12/29
 
