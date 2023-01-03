@@ -12,14 +12,14 @@ import numpy as np
 from time import monotonic
 import os
 
-nnPath = "models/20221214_bigkahunaburger_6shavesonly.blob"
-
+#nnPath = "models/20221214_bigkahunaburger_6shavesonly.blob"
+nnPath="models/paid_models/416A100500K_6shaves.blob"
 #mediaPath = "pics/test_google_earth.png"
 
 mediaPath = "testpics/"
 
 num_of_classes = 3 # define the number of classes in the dataset
-nn_shape = 256
+nn_shape = 416
 
 def decode_deeplabv3p(output_tensor):
     output = output_tensor.reshape(nn_shape,nn_shape)
