@@ -9,7 +9,8 @@ This makes it quicker to test on images collected with your own drone without ha
 Note that this runs the neural network on a Luxonis camera that is assumed to be connected over USB, so you will still need a Luxonis device but it can be any model and you don't need to care about having a rolling-shutter camera 😄
 
 The output of the neural network is color-coded and overlayed over your input image in an OpenCV window like this:
-<img width="254" alt="image" src="https://user-images.githubusercontent.com/20320678/210381788-e9238fd9-a48d-4d94-887f-81814d82c446.png">
+
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/20320678/210395858-70efd643-957f-4e24-9556-2c0567b40dda.png">
 
 
 # 2022/12/29
