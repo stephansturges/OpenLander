@@ -2,6 +2,12 @@
 
 Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors!
 
+# Adding local image processing 
+
+With thanks to Ricardo, you can now add images to the "testpics" folder and process them using an attached Luxonis device by running the test_from_local_file.py script. 
+This makes it quicker to test on images collected with your own drone without having to mount the camera.
+Note that this runs the neural network on a Luxonis camera that is assumed to be connected over USB, so you will still need a Luxonis device but it can be any model and you don't need to care about having a rolling-shutter camera 😄
+
 # 2022/12/29
 
 Sneak peek: next version is going to be ridiculously good... 
