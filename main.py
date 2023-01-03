@@ -43,7 +43,7 @@ cam_source = args.cam_input
 nn_path = args.nn_model 
 usb_speed = args.usb_mode
 
-nn_shape = 256
+nn_shape = 416
 
 
 def decode_deeplabv3p(output_tensor):
