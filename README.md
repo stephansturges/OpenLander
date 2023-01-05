@@ -1,6 +1,7 @@
-# OpenLander
+# 🚁 🛬 🧠 🪄 OpenLander 🪄 🧠 🛬 🚁
 
-Free-to-use ground-level obstacle-detection segmentation AI for UAV which you can deploy today using cheap off-the-shelf sensors!
+Completely free Artificial intelligence system for ground-risk mitigation for UAV and AAM.
+
 
 # 2023/01/03: local image processing and a new DNN 🎉😁
 
