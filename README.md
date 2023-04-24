@@ -2,6 +2,9 @@
 
 Completely free Artificial intelligence system for ground-risk mitigation for UAV and AAM.
 
+# What is OpenLander?
+
+OpenLander is part of MILFS: the Machine-Integrated Landing and Flight System for UAV. This is a set of perception tools that are made available for UAV developers to facilitate the deployment of safety systems to avoid flight over people, cars, homes, or other sensitive areas! 
 
 # 2023/01/03: local image processing and a new DNN 🎉😁
 
