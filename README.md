@@ -9,8 +9,15 @@ OpenLander is part of MILFS: the Machine-Integrated Landing and Flight System fo
 # 2023/05/07: complete training rebuild and ONNX model!
 
 I have rebuilt the complete training system using pytorch and some cool new tricks... and now I can finally export models in ONNX too 😁
-I'm still training the final ONNX models which will be added to this repo but you can already use a basic version and pull the model and deployment code from Huggingface here:
+
+It's a complete retrain of the neural network with a new framework and it's not finished yet, I'll probably update it with a higher-performance model next week… but it already does a pretty good job and you can run it on arbitrary-sized images because the code will handle tiling and it will automatically distribute the process to a GPU or CPU depending on what you have locally 😄
+
+Use it and pull the code / models here:
 https://huggingface.co/spaces/StephanST/OpenLanderONNXonline
+
+![image](https://github.com/stephansturges/OpenLander/assets/20320678/5b21d7a1-7279-475a-9d54-06a067fc4873)
+![image](https://github.com/stephansturges/OpenLander/assets/20320678/f30e87d5-d670-4d4b-8e65-0bb1711bf135)
+
 
 Enjoy!
 
