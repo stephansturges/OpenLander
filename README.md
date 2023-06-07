@@ -6,6 +6,14 @@ Completely free Artificial intelligence system for ground-risk mitigation for UA
 
 OpenLander is part of MILFS: the Machine-Integrated Landing and Flight System for UAV. This is a set of perception tools that are made available for UAV developers to facilitate the deployment of safety systems to avoid flight over people, cars, homes, or other sensitive areas! 
 
+# 2023/05/07: complete training rebuild and ONNX model!
+
+I have rebuilt the complete training system using pytorch and some cool new tricks... and now I can finally export models in ONNX too 😁
+I'm still training the final ONNX models which will be added to this repo but you can already use a basic version and pull the model and deployment code from Huggingface here:
+https://huggingface.co/spaces/StephanST/OpenLanderONNXonline
+
+Enjoy!
+
 # 2023/01/03: local image processing and a new DNN 🎉😁
 
 With thanks to Ricardo, you can now add images to the "testpics" folder and process them using an attached Luxonis device by running the test_from_local_file.py script. 
